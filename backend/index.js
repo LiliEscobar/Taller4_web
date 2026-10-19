@@ -18,6 +18,32 @@ app.get('/api/health', (req, res) => {
   res.json({ message: 'El API está funcionando correctamente.' });
 });
 
+app.get('/api/info', (req, res) => {
+  // Datos de los integrantes del taller.
+  const members = [
+    {
+      id: 1,
+      name: 'Lilian Sofia Escobar Salazar',
+      age: 20,
+      career: 'Ingeniería Informática',
+      approvedSubjects: 18,
+    },
+    {
+      id: 2,
+      name: 'Gael Alexander Martínez Alas',
+      age: 21,
+      career: 'Ingeniería en Computación',
+      approvedSubjects: 12,
+    },
+  ];
+
+  res.json({
+    status: 'success',
+    message: 'El API está funcionando correctamente.',
+    data: members,
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor en http://localhost:${PORT}/api`);
 });

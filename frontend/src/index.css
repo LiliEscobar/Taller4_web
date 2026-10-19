@@ -31,3 +31,12 @@ h1 {
 .api-error h4 {
   color: #b02a37;
 }
+
+.member-card {
+  border-color: #d4e5dc;
+  border-radius: 8px;
+}
+
+.member-card h3 {
+  color: #194c3c;
+}
