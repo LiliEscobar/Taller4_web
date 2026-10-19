@@ -5,4 +5,29 @@ body {
 
 h1 {
   color: #194c3c;
+  margin-bottom: 24px;
+}
+
+.api-section {
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #d4e5dc;
+  border-left: 5px solid #194c3c;
+  border-radius: 8px;
+}
+
+.api-section h4 {
+  color: #194c3c;
+}
+
+.api-section p {
+  margin-bottom: 0;
+}
+
+.api-error {
+  border-color: #b02a37;
+}
+
+.api-error h4 {
+  color: #b02a37;
 }
