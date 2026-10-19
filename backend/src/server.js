@@ -1,0 +1,8 @@
+const createApp = require('./app');
+
+const PORT = process.env.PORT || 3005;
+const app = createApp();
+
+app.listen(PORT, () => {
+  console.log(`Servidor escuchando en http://localhost:${PORT}`);
+});
