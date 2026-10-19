@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "description": "API REST del Taller IV",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "node --watch index.js",
-    "start": "node index.js"
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
